@@ -1,56 +1,42 @@
-# CodeIgniter 4 Framework
+# AdminHub Dashboard
 
-## What is CodeIgniter?
+Welcome to the AdminHub Dashboard repository!
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+AdminHub Dashboard is a sleek and modern dashboard design created using HTML, CSS, and JavaScript. This repository contains the source code for the AdminHub Dashboard.
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## Features
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
+- Responsive layout for desktop and mobile devices
+- Elegant design with intuitive navigation
+- Charts and graphs for data visualization
+- Customizable and easy to integrate into web applications
 
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+## Preview
 
+![AdminHub Dashboard Preview](dashboard-preview.png)
 
-## Important Change with index.php
+## Getting Started
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+To get started with AdminHub Dashboard, follow these steps:
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+1. Clone this repository: `git clone https://github.com/fajarnurwahid/adminhub.git`
+2. Open the `index.html` file in your web browser to view the dashboard.
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Technologies Used
 
-## Repository Management
-
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+- HTML
+- CSS
+- JavaScript
 
 ## Contributing
 
-We welcome contributions from the community.
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## License
 
-## Server Requirements
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-PHP version 7.3 or higher is required, with the following extensions installed:
+## Acknowledgements
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Special thanks to [Fajarnurwahid](https://github.com/fajarnurwahid) for creating and sharing the AdminHub Dashboard.
 
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
